@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+?<?xml version="1.0"?>
 <!DOCTYPE project>
 <project name="Boilerplate Build" default="build" basedir="../"> <!-- one back since we're in build/ -->
 
@@ -402,23 +402,7 @@
     </target>
     
     
-    <target name="-rev" description="(PRIVATE) Increase the current build number by one and set build date">
-    <!-- This is a private target -->
-    
-        <echo message="====================================================================="/>
-        <echo message="Welcome to the HTML5 Boilerplate Build Script!"/>
-        <echo message=" "/>
-        <echo message="We're going to get your site all ship-shape and ready for prime time."/>
-        <echo message=" "/>
-        <echo message="This should take somewhere between 15 seconds and a few minutes,"/>
-        <echo message="mostly depending on how many images we're going to compress."/>
-        <echo message=" "/>
-        <echo message="Feel free to come back or stay here and follow along."/>
-        <echo message="====================================================================="/>
-        <echo message=" "/>
-        <echo message=" "/>
-    
-    </target>
+
     
     <target name="-mkdirs">
       <if>
